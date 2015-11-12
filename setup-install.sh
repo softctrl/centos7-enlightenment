@@ -11,9 +11,9 @@ libtiff libtiff-devel giflib giflib-devel mesa-libGL mesa-libGL-devel libspectre
 librsvg2 librsvg2-devel LibRaw LibRaw-devel xine-lib xine-lib-devel bullet bullet-devel libwebp libwebp-devel fribidi fribidi-devel \
 libpeas libpeas-devel vlc vlc-devel
 
+# Flag for duilding:
 export CFLAGS="-O3 -ffast-math -march=native"
 
-## 
 wget -c "http://download.enlightenment.org/rel/libs/efl/efl-1.16.0.tar.gz" && tar -zxvf efl-1.16.0.tar.gz
 cd efl-1.16.0/
  ./configure --prefix=/usr --enable-systemd
