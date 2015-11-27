@@ -71,3 +71,6 @@ rm -rvf rage-0.1.4*
 rm -rvf econnman-1.1*
 
 echo "End."
+
+echo "Trying..."
+terminology
